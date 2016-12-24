@@ -9,11 +9,11 @@
  * `[File] > [Settings] > [Editor] > [Color & Fonts] > [Android Logcat]`으로 간다. 이곳에서 각 로그마다 `Forground`색상을 체크하여 변경을 한다.  체크가 안된다면 체크박스 하단에 `Use inherited attributes`의 체크를 풀면 된다. 각 로그마다 추천하는 색상은 다음과 같다.
 * 로그별 추천하는 색상
 
-> Debug : 6897BB
-> Info : 6A8759 
-> Warn : BBB529 
-> Warn : BBB529 
-> Error : FF6B68 
+> Debug : 6897BB  
+> Info : 6A8759   
+> Warn : BBB529   
+> Warn : BBB529   
+> Error : FF6B68   
 > Assert : 9876AA
 
 
