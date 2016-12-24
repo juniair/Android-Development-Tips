@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50.67dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/layout_header_background">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/theme_orange">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0.67dp"
+            android:background="@color/header_underLine">
+
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="top"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <FrameLayout
+            android:layout_height="match_parent"
+            android:id="@+id/layout_header_back_backBtn"
+            android:clickable="true"
+            android:foreground="@drawable/selector_layoutbtn_black_20"
+            android:layout_width="44.33dp">
+
+            <ImageView
+                android:layout_width="22dp"
+                android:layout_height="19.33dp"
+                android:id="@+id/iv_header_back"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop" />
+        </FrameLayout>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_header_back_title"
+            android:layout_gravity="center_vertical"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:layout_marginLeft="5.33dp"
+            android:textSize="16dp"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:layout_width="233.33dp" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:id="@+id/layout_header_btn" />
+
+</RelativeLayout>
+

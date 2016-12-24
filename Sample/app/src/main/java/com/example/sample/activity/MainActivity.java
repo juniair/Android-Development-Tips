@@ -8,8 +8,6 @@ import android.widget.Button;
 
 import com.example.sample.R;
 
-import java.util.Scanner;
-
 public class MainActivity extends AppCompatActivity {
 
     Button btn1, btn2;
@@ -19,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Scanner
+
         btn1 = (Button) findViewById(R.id.btn_fram1);
         btn2 = (Button) findViewById(R.id.btn_fram2);
 

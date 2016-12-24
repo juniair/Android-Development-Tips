@@ -1,6 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="blackAndOpacity08"> #14000000 </color>
+    <color name="blackAndOpacity20"> #33000000 </color>
+    <color name="blackAndOpacity40"> #66000000 </color>
+    <color name="blackAndOpacity50"> #80000000 </color>
+    <color name="blackAndOpacity60"> #99000000 </color>
+    <color name="blackAndOpacity70"> #b3000000 </color>
+
+    <color name="whiteAndOpacity20"> #33ffffff </color>
+    <color name="whiteAndOpacity70"> #B3ffffff </color>
+
+    <color name="theme_darkGray">#1e2631</color>
+    <color name="theme_orange">#ef8724</color>
+    <color name="theme_green">#19a92a</color>
+    <color name="theme_gray">#494e55</color>
+    <color name="theme_darkWhite"> #f7f7ed </color>
+
+    <color name="header_underLine">#d2741b</color>
+
+    <color name="text_semiDark">#46484b</color>
+
+    <color name="text_joinToEmail">#606163</color>
+    <color name="text_joinToEmail_input">#262626</color>
+    <color name="text_joinToEmail_line">#7c7c7c</color>
+
+    <color name="text_header_search">#b0b0b0</color>
+
+    <color name="content_main_graybox">#edeaea</color>
+    <color name="content_main_tablayout_divider">#e0e0e0</color>
+    <color name="content_profile_devider">#a3a3a3</color>
+
+    <color name="content_profile_refundBoxGray">#bfbfbf</color>
+    <color name="content_profile_refundfont">#6a6a6a</color>
+    <color name="content_profile_refundeditfont">#979797</color>
+    <color name="content_profile_refundInnerBox">#f6f3f3</color>
+
+    <color name="content_profile_creadit_font">#565656</color>
+    <color name="content_profile_withdraw_font">#3e3e3e</color>
+    <color name="content_profile_withdraw_bg">#dbd9d9</color>
+
+    <color name="content_product_title">#2c2d2f</color>
+
+    <color name="item_main_postscript_boxLine">#a2a2a2</color>
+    <color name="item_main_postscript_comment">#7d7e80</color>
+
+    <color name="item_base_boxline">#ddd9d9</color>
+    <color name="item_base_textColor">#929394</color>
+
+    <color name="item_category_border">#d9d9d9</color>
+    <color name="item_category_font">#52575d</color>
+
+    <color name="item_dibsAuthor_divider">#c9c7c7</color>
+    <color name="item_dibsAuthor_bg">#e8e5e5</color>
+
+    <color name="footer_background">#c3c3c3</color>
+
+    <color name="content_product_delivery_divider">#0e1116</color>
+
+    <color name="header_button_text_color">#bd610a</color>
+
+    <color name="content_author_grade">#ff5d0d</color>
+
+    <color name="content_sponsor_1000_off">#68abca</color>
+    <color name="content_sponsor_1000_on">#1d7ba5</color>
+    <color name="content_sponsor_5000_off">#e9b14f</color>
+    <color name="content_sponsor_5000_on">#b76d0d</color>
+    <color name="content_sponsor_10000_off">#88bf6a</color>
+    <color name="content_sponsor_10000_on">#419415</color>
+
+    <color name="content_product_basket_kind_edit">#7b7c7e</color>
+
+    <color name="footer_final_amount_divider">#747474</color>
+    <color name="footer_final_amount">#888888</color>
+
+    <color name="content_order_confirm_orangeback">#ffbd55</color>
+
+    <color name="content_main_category_bg">#ece9e9</color>
+
+    <color name="item_noticemessage_font">#1a1a1a</color>
+    <color name="content_noticemessage_font">#75777b</color>
+
+    <color name="order_detail_font">#8b8b8b</color>
 </resources>
