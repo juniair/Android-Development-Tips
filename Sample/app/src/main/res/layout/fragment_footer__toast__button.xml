@@ -10,7 +10,8 @@
         android:id="@+id/layout_header_background">
 
         <Button
-            android:text="클릭"
+            android:text="What is Activity?"
+            android:id="@+id/btn_toast"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
     </LinearLayout>

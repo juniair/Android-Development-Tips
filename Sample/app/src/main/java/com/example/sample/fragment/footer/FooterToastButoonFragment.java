@@ -8,6 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.Toast;
 
 import com.example.sample.R;
 
@@ -22,13 +23,13 @@ import com.example.sample.R;
 public class FooterToastButoonFragment extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-    private static final String ARG_PARAM1 = "param1";
+    private static final String ARG_PARAM1 = "toast";
 
 
-    private Button toast
+    private Button toastButton;
 
     // TODO: Rename and change types of parameters
-    private String mParam1;
+    private String message;
 
     private OnFragmentInteractionListener mListener;
 
@@ -56,15 +57,24 @@ public class FooterToastButoonFragment extends Fragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         if (getArguments() != null) {
-            mParam1 = getArguments().getString(ARG_PARAM1);
+            message = getArguments().getString(ARG_PARAM1);
         }
+
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_footer__toast__button, container, false);
+        final View view = inflater.inflate(R.layout.fragment_footer__toast__button, container, false);
+        toastButton = (Button) view.findViewById(R.id.btn_toast);
+        toastButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(view.getContext(), message, Toast.LENGTH_SHORT).show();
+            }
+        });
+        return view;
     }
 
     // TODO: Rename method, update argument and hook method into UI event

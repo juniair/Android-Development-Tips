@@ -13,7 +13,7 @@ import android.widget.TextView;
 
 import com.example.sample.R;
 
-public class FragmentHeaderBackButton extends Fragment {
+public class HeaderBackButtonFragment extends Fragment {
 
     ImageView ivHeaderBack;
     TextView tvHeaderBackTitle;
@@ -27,18 +27,18 @@ public class FragmentHeaderBackButton extends Fragment {
     String _title;
     View _rightLayout;
 
-    public static FragmentHeaderBackButton newInstance(String title) {
+    public static HeaderBackButtonFragment newInstance(String title) {
         Bundle args = new Bundle();
         args.putString("Title", title);
 
-        FragmentHeaderBackButton fragment = new FragmentHeaderBackButton();
+        HeaderBackButtonFragment fragment = new HeaderBackButtonFragment();
         fragment.setArguments(args);
 
         return fragment;
     }
 
-    public static FragmentHeaderBackButton newInstance(String title, View rightLayout) {
-        FragmentHeaderBackButton fragment = newInstance(title);
+    public static HeaderBackButtonFragment newInstance(String title, View rightLayout) {
+        HeaderBackButtonFragment fragment = newInstance(title);
         fragment.setRightBtn(rightLayout);
         return fragment;
     }
@@ -76,7 +76,7 @@ public class FragmentHeaderBackButton extends Fragment {
     }
 
 
-    public View.OnClickListener onClick(final FragmentHeaderBackButton it) {
+    public View.OnClickListener onClick(final HeaderBackButtonFragment it) {
 
         return new View.OnClickListener() {
             @Override
