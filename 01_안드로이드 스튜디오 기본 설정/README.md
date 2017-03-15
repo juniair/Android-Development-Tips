@@ -17,10 +17,10 @@
 > Assert : 9876AA
 
   * 다음 화면은 Logcat이 설정된다.
-![Log 화면](https://github.com/juniair/Android-Development-Tips/blob/master/screenshot/logcat.PNG)
+![Log 화면](https://github.com/juniair/Android-Development-Tips/juniair/master/screenshot/logcat.PNG)
 
  *  **자동으로 `import`하는 방법** 
 
   * 작업을 하다보면 다른 패키지에 있는 클래스를 사용할때 클래스 선언후 `[Alt] + [Enter]`를 입력해야  해당 클래스가 있는 패키지가 `import`된다. 이런 불편한 점 역시 해결하는 방법이 있다.
   * `[File] > [Settings] > [Editor] > [General] > [Auto Import]`에 들어가서 `Optimize imports on the fly`와 `Add unambiguous imports on the fly`를 체크 해주면 자동으로 패키지를 추가하고 해당 패키지를 사용을 안하면 자동으로 추가한 `import`를 지운다. 
-  * ![](https://github.com/juniair/Android-Development-Tips/blob/master/screenshot/autoimport.PNG)
+  * ![](https://github.com/juniair/Android-Development-Tips/juniair/master/screenshot/autoimport.PNG)
